@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mycalc : An advanced Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="resp.css">
+</head>
+<body>
+    <div id="container">
+        <div id="menu">
+            <H1>MyCalc...</H1>
+            <p>An advance calculator for algebric and age calculations.</p>
+            <h3>Select Your Calculator</h3>
+            <div>
+                <a href="" id="123"><button class="menubtn" >123</button></a>
+                <a href="" id="age"><button class="menubtn">Age</button></a>
+            </div>
+            <div id="bottom">
+                <a href=" ">Need help?</a>
+            </div>
+        </div>
+        <div id="side">
+            <div class="calculator">
+                <h1 id="123">Algebric Calculator</h1>
+                <input type="text" id="inputbox" placeholder="00">
+                <div>
+                    <button class="keys">C</button>
+                    <button class="keys">DE</button>
+                    <button class="keys">%</button>
+                    <button class="keys">+</button>
+                </div>
+                <div>
+                    <button class="keys">7</button>
+                    <button class="keys">8</button>
+                    <button class="keys">9</button>
+                    <button class="keys">-</button>
+                </div>
+                <div>
+                    <button class="keys">4</button>
+                    <button class="keys">5</button>
+                    <button class="keys">6</button>
+                    <button class="keys">*</button>
+                </div>
+                <div>
+                    <button class="keys">1</button>
+                    <button class="keys">2</button>
+                    <button class="keys">3</button>
+                    <button class="keys">/</button>
+                </div>
+                <div>
+                    <button class="keys">00</button>
+                    <button class="keys">0</button>
+                    <button class="keys">.</button>
+                    <button class="keys">=</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="age-calc">
+        <div id="calc1">
+            <h1 class="age">Age Calculator</h1>
+            <div>
+                <input type="date" id="inputage">
+                <button id="calc-age" onclick="ageCalculator()">Calculate</button>
+            </div>
+            <div><h4 id="result"></h4></div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

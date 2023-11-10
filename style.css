@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+button, #bottom{
+    cursor: pointer;
+}
+#container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+#menu{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(0, 29, 29);
+    color: white;
+    height: 90%;
+    width: 25%;
+    padding-top: 50px;
+    text-align: center;
+    position: relative,fixed;
+}
+h1{
+    margin: 15px;
+    color: rgb(4, 167, 129);
+}
+h3{
+    margin-top: 3rem;
+    padding: 20px 0;
+}
+#menu #bottom {
+    margin-top: 18rem;
+}
+#menu #bottom a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+#menu #bottom a:hover{
+    color: rgb(4, 167, 129);
+    border-bottom: 2px solid white;
+}
+#side{
+    background-color: rgb(2, 55, 55);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 70%;
+}
+.calculator{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    /* width: 25%; */
+}
+.calculator input{
+    text-align: right;
+    width: 250px;
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 1rem 0;
+    color: white;
+    background: transparent;
+    border: none;
+}
+button{
+    height: 3.5rem;
+    width: 3.5rem;
+    background-color: rgb(58, 104, 117);
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 3px 2px;
+    border: none;
+}
+.menubtn{
+    background-color: rgb(1, 46, 41);
+    border: none;
+    margin: 0px 5px;
+}
+.menubtn:hover, button:hover, #calc-age:hover, #inputage:hover{
+    background: rgb(4, 167, 129);
+    color: black;
+}
+#age-calc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60vh;
+}
+#calc1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 95%;
+    height: 85%;
+    background: rgb(0, 29, 29);
+}
+#calc1 div{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: 30%;
+    width: 35%;
+    background: rgb(1, 46, 41);
+}
+#inputage{
+    height: 3rem;
+    width: 18rem;
+    font-size: 1.2rem;
+    color: white;
+    background: rgb(58, 104, 117);
+    border: none;
+    padding: 10px;
+}
+#calc-age{
+    background: rgb(58, 104, 117);
+    height: 3rem;
+    width: 8rem;
+}
+h4{
+    color: white;
+}
